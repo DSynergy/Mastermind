@@ -1,0 +1,36 @@
+intro: >
+  Welcome to
+
+    |\        /|      A           s s s     ----T----     -------   | \     |\       /|   -----------   |\     |    | \
+    | \      / |     / \         s              |         |         |  \    | \     / |        |        | \    |    |  \
+    |  \    /  |    /   \         s             |         |         |  /    |  \   /  |        |        |  \   |    |   \
+    |   \  /   |   /-----\         ss           |         |-----    | /     |   \ /   |        |        |   \  |    |   /
+    |    \/    |  /       \          s          |         |         | \     |    v    |        |        |    \ |    |  /
+    |          | /         \    s s s           |         |______   |  \    |         |   _____|_____   |     \|    |_/
+
+intro_prompt:  Would you like to (p)lay, read the (i)nstructions, or (q)uit?
+instructions: |
+  Welcome to Mastermind! Mastermind is a code-breaking game for two players, the code-maker and the code-breaker.
+   The modern game was invented in 1970 by Mordecai Meirowitz, an Israeli postmaster and telecommunications expert.
+    In anycase, at the most basic level, I will randomly choose 4 colors and put them in order - duplicate colors are allowed.
+     It is your job as the code-breaker to figure out the order of these colors.
+      After each guess, I will provide feedback on how many colors you have in the correct positions (exact guess),
+       and how many colors you choose correctly but are in the wrong position (near guess).
+        I will then record how many guesses and how much time it takes to find the correct code.
+         Good luck!
+you_win: Winner winner, chicken dinner!
+bad_input: Try putting that in again. Spelling?
+quitting: >
+  See you next time you play
+    |\        /|      A           s s s     ----T----     -------   | \     |\       /|   -----------   |\     |    | \
+    | \      / |     / \         s              |         |         |  \    | \     / |        |        | \    |    |  \
+    |  \    /  |    /   \         s             |         |         |  /    |  \   /  |        |        |  \   |    |   \
+    |   \  /   |   /-----\         ss           |         |-----    | /     |   \ /   |        |        |   \  |    |   /
+    |    \/    |  /       \          s          |         |         | \     |    v    |        |        |    \ |    |  /
+    |          | /         \    s s s           |         |______   |  \    |         |   _____|_____   |     \|    |_/
+
+game_start: |
+ I have generated a beginner sequence with four elements made up of: (r)ed, (g)reen, (b)lue, and (y)ellow.
+  Use (q)uit at any time to end the game.
+   What's your guess?
+play: Here we go!
